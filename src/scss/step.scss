@@ -1,0 +1,40 @@
+@import "settings.scss";
+#flight-step{
+    .icon{
+        position: absolute;
+        right: 0px;
+        top: 22px;
+        background: $content-color;
+    }
+    .step-line{
+        height: 5px;
+        width: 70%;
+        border-bottom: 5px dotted #000;
+        position: absolute;
+        margin: 0 auto;
+        left: auto;
+        left: 185px;
+        top: 60px;
+    }
+    .step-area{
+        .step-img{
+            width:70px;
+            height:70px;
+            border-radius:50%;
+            background:$gray;
+            justify-content:center;
+            text-align:center;
+            padding-top:20px;
+            margin:0 auto;
+            margin-bottom:15px;
+            img{
+                width:25px;
+                height:35px;
+            }
+        }
+        h2{
+            color:$dark-font;
+            font-size:22px;
+        }
+    }
+}

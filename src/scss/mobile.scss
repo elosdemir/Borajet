@@ -1,0 +1,95 @@
+@import "settings.scss";
+@import "header.scss";
+@import "step.scss";
+.step-line-2{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .sidebar{
+        position: relative;
+    }
+    .total-area{
+        position: initial !important;
+    }
+}
+@media screen and (max-width:990px){
+    #header{
+       .container{
+        border-bottom: 1px solid #808080;
+       }
+        .col-md-6{
+            width: 50%;
+            height: 70px;
+            ul{
+                li{
+                    width: 100%;
+                    &:last-child{
+                        display: none;
+                    }
+                }
+            }
+            img{
+                width: 100px;
+            }
+        }
+    }
+#flight-step{width: 100%;
+    .col-md-6{
+        width: 50%;
+        margin: 5px 0px;
+        z-index: 9;
+    }
+    .step-line{
+        display:block;
+        width: 50%;
+        left: 28%;
+        top: 65px;
+    }
+    .step-line-2{
+        display: block;
+        height: 5px;
+        width: 50%;
+        left: 28%;
+        border-bottom: 5px dotted #000;
+        position: absolute;
+        margin: 0 auto;
+        bottom: 88px;
+        z-index: 1;
+    }
+    .icon{
+        display:block;
+        right: -15px;
+        
+    }
+    .plane-none{
+        .icon{
+            display: none ;
+        }
+    }
+}
+#passenger-area{
+    form{
+        .form-group{
+            label{
+                width: 50%;
+                text-align: left;
+                margin-bottom: 5px;
+            }
+            .col-sm-2{
+                width: 50%;
+                margin-bottom: 5px;
+            }
+            .col-sm-5{
+                &:last-child{
+                    width: 50%;
+                }
+            }
+        }
+        .form-control{
+            margin: 5px 0px;
+        }
+    }
+    
+}
+    
+}

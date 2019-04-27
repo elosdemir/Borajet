@@ -1,0 +1,33 @@
+@import "settings.scss";
+
+#flight-info{
+    h1{
+        font-size:24px;
+        color:$dark-blue;
+    }
+    .bg-blue{
+        background:$light-blue;
+        margin-top:15px;
+        padding-top:10px;
+        h2{
+            font-size:20px;
+            color:$font-color;
+            font-weight:200;
+        }
+        p{
+            font-size:14px;
+            span{
+                margin-left:20px;
+            }
+        }
+        .flight-code{
+            margin-left:70px;
+        }
+        .citys{
+            img{
+                margin:0 20px;
+            }
+        }
+
+    }
+}

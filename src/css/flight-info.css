@@ -1,0 +1,58 @@
+body {
+  background: #e5e5e5 !important; }
+
+.container {
+  background: #f9fbfc !important;
+  padding: 30px 30px !important;
+  position: relative !important;
+  padding-bottom: 0px !important; }
+
+.title {
+  font-size: 24px;
+  color: #1161a6; }
+
+.form-title {
+  font-size: 20px;
+  color: #1161a6; }
+  .form-title span {
+    font-weight: 400; }
+
+.btn-passenger {
+  background: #fafafa; }
+
+.btn-group {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  background: #fafafa;
+  width: 100px; }
+
+label {
+  font-size: 12px !important;
+  float: right;
+  text-align: right;
+  margin-top: 8px; }
+
+.border-top {
+  border-top: 1px solid #494949;
+  padding-top: 10px; }
+
+#flight-info h1 {
+  font-size: 24px;
+  color: #1161a6; }
+
+#flight-info .bg-blue {
+  background: #e8eff6;
+  margin-top: 15px;
+  padding-top: 10px; }
+  #flight-info .bg-blue h2 {
+    font-size: 20px;
+    color: #5d5d5e;
+    font-weight: 200; }
+  #flight-info .bg-blue p {
+    font-size: 14px; }
+    #flight-info .bg-blue p span {
+      margin-left: 20px; }
+  #flight-info .bg-blue .flight-code {
+    margin-left: 70px; }
+  #flight-info .bg-blue .citys img {
+    margin: 0 20px; }

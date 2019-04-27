@@ -1,0 +1,220 @@
+body {
+  background: #e5e5e5 !important; }
+
+.container {
+  background: #f9fbfc !important;
+  padding: 30px 30px !important;
+  position: relative !important;
+  padding-bottom: 0px !important; }
+
+.title {
+  font-size: 24px;
+  color: #1161a6; }
+
+.form-title {
+  font-size: 20px;
+  color: #1161a6; }
+  .form-title span {
+    font-weight: 400; }
+
+.btn-passenger {
+  background: #fafafa; }
+
+.btn-group {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  background: #fafafa;
+  width: 100px; }
+
+label {
+  font-size: 12px !important;
+  float: right;
+  text-align: right;
+  margin-top: 8px; }
+
+.border-top {
+  border-top: 1px solid #494949;
+  padding-top: 10px; }
+
+body {
+  background: #e5e5e5 !important; }
+
+.container {
+  background: #f9fbfc !important;
+  padding: 30px 30px !important;
+  position: relative !important;
+  padding-bottom: 0px !important; }
+
+.title {
+  font-size: 24px;
+  color: #1161a6; }
+
+.form-title {
+  font-size: 20px;
+  color: #1161a6; }
+  .form-title span {
+    font-weight: 400; }
+
+.btn-passenger {
+  background: #fafafa; }
+
+.btn-group {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  background: #fafafa;
+  width: 100px; }
+
+label {
+  font-size: 12px !important;
+  float: right;
+  text-align: right;
+  margin-top: 8px; }
+
+.border-top {
+  border-top: 1px solid #494949;
+  padding-top: 10px; }
+
+#header ul {
+  float: right;
+  margin-top: 0.5rem; }
+  #header ul img {
+    width: 25px; }
+  #header ul li, #header ul a {
+    list-style-type: none;
+    float: left;
+    color: #4b88bc;
+    font-weight: 400;
+    margin-left: 30px; }
+
+body {
+  background: #e5e5e5 !important; }
+
+.container {
+  background: #f9fbfc !important;
+  padding: 30px 30px !important;
+  position: relative !important;
+  padding-bottom: 0px !important; }
+
+.title {
+  font-size: 24px;
+  color: #1161a6; }
+
+.form-title {
+  font-size: 20px;
+  color: #1161a6; }
+  .form-title span {
+    font-weight: 400; }
+
+.btn-passenger {
+  background: #fafafa; }
+
+.btn-group {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  background: #fafafa;
+  width: 100px; }
+
+label {
+  font-size: 12px !important;
+  float: right;
+  text-align: right;
+  margin-top: 8px; }
+
+.border-top {
+  border-top: 1px solid #494949;
+  padding-top: 10px; }
+
+#flight-step .icon {
+  position: absolute;
+  right: 0px;
+  top: 22px;
+  background: #f9fbfc; }
+
+#flight-step .step-line {
+  height: 5px;
+  width: 70%;
+  border-bottom: 5px dotted #000;
+  position: absolute;
+  margin: 0 auto;
+  left: auto;
+  left: 185px;
+  top: 60px; }
+
+#flight-step .step-area .step-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #959595;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+  #flight-step .step-area .step-img img {
+    width: 25px;
+    height: 35px; }
+
+#flight-step .step-area h2 {
+  color: #494949;
+  font-size: 22px; }
+
+.step-line-2 {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    position: relative; }
+  .total-area {
+    position: initial !important; } }
+
+@media screen and (max-width: 990px) {
+  #header .container {
+    border-bottom: 1px solid #808080; }
+  #header .col-md-6 {
+    width: 50%;
+    height: 70px; }
+    #header .col-md-6 ul li {
+      width: 100%; }
+      #header .col-md-6 ul li:last-child {
+        display: none; }
+    #header .col-md-6 img {
+      width: 100px; }
+  #flight-step {
+    width: 100%; }
+    #flight-step .col-md-6 {
+      width: 50%;
+      margin: 5px 0px;
+      z-index: 9; }
+    #flight-step .step-line {
+      display: block;
+      width: 50%;
+      left: 28%;
+      top: 65px; }
+    #flight-step .step-line-2 {
+      display: block;
+      height: 5px;
+      width: 50%;
+      left: 28%;
+      border-bottom: 5px dotted #000;
+      position: absolute;
+      margin: 0 auto;
+      bottom: 88px;
+      z-index: 1; }
+    #flight-step .icon {
+      display: block;
+      right: -15px; }
+    #flight-step .plane-none .icon {
+      display: none; }
+  #passenger-area form .form-group label {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 5px; }
+  #passenger-area form .form-group .col-sm-2 {
+    width: 50%;
+    margin-bottom: 5px; }
+  #passenger-area form .form-group .col-sm-5:last-child {
+    width: 50%; }
+  #passenger-area form .form-control {
+    margin: 5px 0px; } }

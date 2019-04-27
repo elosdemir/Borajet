@@ -1,0 +1,85 @@
+@import "settings.scss";
+
+.sidebar{
+    h1{
+        background:$dark-blue;
+        color:#fff;
+        font-size:18px;
+        padding:15px 0px;
+        text-align: center;
+        border-radius:6px;
+        margin-bottom:15px;
+    }
+    .total-price,.service{
+        font-size:18px;
+        background:$light-blue;
+        color:$dark-blue;
+        padding:15px 15px;
+        border-radius:6px;
+        span{
+            float: right;
+        }
+    }
+    .price{
+        background:$light-blue;
+        padding:15px 15px;
+        margin-bottom:15px;
+        border-radius:6px;
+        .vergi{
+            margin:15px 0px;
+        }
+        .bolder{
+            font-weight:500;
+        }
+        h4{
+            font-size:14px;
+            color:$dark-blue;
+        }
+        ul{
+            padding:0px;
+            li{
+                list-style-type:none;
+                color:$dark-blue;
+                font-weight:300;
+                margin:5px 0px;
+                span{
+                    float: right;
+                }
+            }
+        }
+    }
+}
+.flight-result{
+    color:$font-color;
+    font-size:14px;
+    span{
+        font-weight:800;
+    }
+}
+.total-area{
+    position: absolute;
+    bottom: 15px;
+    left: 30%;
+    p{
+        margin:0px;
+    }
+    .price-last{
+        font-size:24px;
+        font-weight:bold;
+        color:$dark-blue;
+    }
+    .info{
+        span{
+            font-weight:bold;
+        }
+        font-size:14px;
+        color:$font-color;
+    }
+    .btn{
+        color:#fff;
+        background:#2a89c5;
+        padding:15px;
+        width:150px;
+        margin-top:10px;
+    }
+}

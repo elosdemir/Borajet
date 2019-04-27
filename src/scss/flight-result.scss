@@ -1,0 +1,36 @@
+@import "settings.scss";
+
+.fligt-last-info{
+    .flight-price{
+        font-size:24px;
+        color:$dark-blue;
+        p{
+            margin:0px;
+        }
+    }
+    .flight-time{
+        font-size:14px;
+        color:$font-color;
+        margin-bottom:25px;
+        p{
+            margin:0px;
+        }
+        span{
+            font-weight:bold;
+        }
+    }
+    .flight-plan{
+        img{
+            margin-left:65px;
+        }
+        p{
+            font-size:14px;
+            font-weight:bold;
+            color:$dark-blue;
+        }
+        span{
+            margin-right:30px;
+        
+        }
+    }
+}

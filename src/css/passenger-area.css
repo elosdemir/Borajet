@@ -1,0 +1,105 @@
+body {
+  background: #e5e5e5 !important; }
+
+.container {
+  background: #f9fbfc !important;
+  padding: 30px 30px !important;
+  position: relative !important;
+  padding-bottom: 0px !important; }
+
+.title {
+  font-size: 24px;
+  color: #1161a6; }
+
+.form-title {
+  font-size: 20px;
+  color: #1161a6; }
+  .form-title span {
+    font-weight: 400; }
+
+.btn-passenger {
+  background: #fafafa; }
+
+.btn-group {
+  border: 1px solid #959595;
+  border-radius: 6px;
+  background: #fafafa;
+  width: 100px; }
+
+label {
+  font-size: 12px !important;
+  float: right;
+  text-align: right;
+  margin-top: 8px; }
+
+.border-top {
+  border-top: 1px solid #494949;
+  padding-top: 10px; }
+
+.sidebar h1 {
+  background: #1161a6;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 15px; }
+
+.sidebar .total-price, .sidebar .service {
+  font-size: 18px;
+  background: #e8eff6;
+  color: #1161a6;
+  padding: 15px 15px;
+  border-radius: 6px; }
+  .sidebar .total-price span, .sidebar .service span {
+    float: right; }
+
+.sidebar .price {
+  background: #e8eff6;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 6px; }
+  .sidebar .price .vergi {
+    margin: 15px 0px; }
+  .sidebar .price .bolder {
+    font-weight: 500; }
+  .sidebar .price h4 {
+    font-size: 14px;
+    color: #1161a6; }
+  .sidebar .price ul {
+    padding: 0px; }
+    .sidebar .price ul li {
+      list-style-type: none;
+      color: #1161a6;
+      font-weight: 300;
+      margin: 5px 0px; }
+      .sidebar .price ul li span {
+        float: right; }
+
+.flight-result {
+  color: #5d5d5e;
+  font-size: 14px; }
+  .flight-result span {
+    font-weight: 800; }
+
+.total-area {
+  position: absolute;
+  bottom: 15px;
+  left: 30%; }
+  .total-area p {
+    margin: 0px; }
+  .total-area .price-last {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1161a6; }
+  .total-area .info {
+    font-size: 14px;
+    color: #5d5d5e; }
+    .total-area .info span {
+      font-weight: bold; }
+  .total-area .btn {
+    color: #fff;
+    background: #2a89c5;
+    padding: 15px;
+    width: 150px;
+    margin-top: 10px; }
